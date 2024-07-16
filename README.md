@@ -7,6 +7,7 @@
 2. **模型微调**：使用XTuner工具对模型进行LoRA、QLoRA或全量参数微调，提升生成效果。
 
 ### 项目功能
+![SD提示词助手](https://github.com/user-attachments/assets/9ab08cdf-eaea-439e-be4e-10c8cbb95756)
 
 #### 任务输入
 - 用户输入自然语言描述。
