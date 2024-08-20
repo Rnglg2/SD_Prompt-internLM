@@ -2,14 +2,26 @@
 
 ### 项目简介
 本项目旨在为用户生成高质量的Stable Diffusion提示词。用户输入自然语言描述，通过大模型转换为适合Stable Diffusion的提示词，并使用XTuner对模型进行微调，以提升生成效果。主要功能包括：
-## 模型地址
-![SD提示词助手](https://huggingface.co/Rnglg2/internLM2-SD_PROMPT)
-"""
-#安装依赖
-pip install transformers huggingface_hub streamlit torch
-"""
+## SD提示词助手模型地址-https://huggingface.co/Rnglg2/internLM2-SD_PROMPT
 1. **自然语言到提示词转换**：利用书生大模型将用户输入的自然语言转换为Stable Diffusion的提示词。
 2. **模型微调**：使用XTuner工具对模型进行QLoRA或全量参数微调，提升生成效果。
+   
+### 安装依赖
+```bash
+pip install transformers huggingface_hub streamlit torch
+```
+
+### 运行步骤
+1. 将脚本中`model_name_or_path`修改为下载完成的模型路径
+2. 运行以下命令启动应用
+   ```bash
+   streamlit run streamlit.py
+   ```
+3. 打开浏览器，进入`localhost:8501`即可开始对话[1]
+
+Citations:
+[1] https://huggingface.co/Rnglg2/internLM2-SD_PROMPT
+
 
 ### 项目功能
 ![SD提示词助手](https://github.com/user-attachments/assets/9ab08cdf-eaea-439e-be4e-10c8cbb95756)
