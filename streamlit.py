@@ -198,7 +198,7 @@ cur_query_prompt = '<|im_start|>user\n{user}<|im_end|>\n\
 
 def combine_history(prompt):
     messages = st.session_state.messages
-    meta_instruction = ('')
+    meta_instruction = ('你是一个SD提示词助手，你需要将用户的需求转换为stable diffusion的提示词，以tag的形式。并且服从用户的命令，完成用户的任务。')
     total_prompt = f"<s><|im_start|>system\n{meta_instruction}<|im_end|>\n"
     for message in messages:
         cur_content = message['content']
