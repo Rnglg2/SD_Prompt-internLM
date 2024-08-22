@@ -41,7 +41,7 @@ Citations:
 
 
 ### 项目功能
-![SD提示词助手](![QQ20240823-013054](https://github.com/user-attachments/assets/9364d154-8582-4b80-934a-b4fcde9adfa4))
+![SD提示词助手](https://github.com/user-attachments/assets/9364d154-8582-4b80-934a-b4fcde9adfa4)
 
 
 #### 任务输入
