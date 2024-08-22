@@ -41,7 +41,8 @@ Citations:
 
 
 ### 项目功能
-![SD提示词助手](https://github.com/user-attachments/assets/9ab08cdf-eaea-439e-be4e-10c8cbb95756)
+![SD提示词助手](![QQ20240823-013054](https://github.com/user-attachments/assets/9364d154-8582-4b80-934a-b4fcde9adfa4)
+
 
 #### 任务输入
 - 用户输入自然语言描述。
