@@ -5,7 +5,7 @@
 ## SD提示词助手模型地址-https://huggingface.co/Rnglg2/internLM2-SD_PROMPT
 1. **自然语言到提示词转换**：利用书生大模型将用户输入的自然语言转换为Stable Diffusion的提示词。
 2. **模型微调**：使用XTuner工具对模型进行QLoRA或全量参数微调，提升生成效果。
-### 使用LMDeploy
+# 使用LMDeploy
 首先 下载推理所用的模型 https://huggingface.co/Rnglg2/internLM2-SD_PROMPT
 将模型文件夹重命名为internlm2-xxxxxx
 ## 安装依赖
@@ -20,7 +20,7 @@ pip install streamlit openai requests
 CUDA_VISIBLE_DEVICES=0 lmdeploy serve api_server ($model-path) --server-port 23333 --api-keys internlm2
 streamlit run chat_ui.py
 ```
-**随后在webui上进行参数的调整即可**
+### 随后在webui上进行参数的调整即可
 **你需要部署一个Stable diffusion Webui 否则将无法使用生图功能**
 
 # 仅使用推理ui
@@ -57,4 +57,4 @@ Citations:
 ### 后续更新方向
 1. **生成图片**：将生成的提示词结合Stable Diffusion WebUI API，实现自然语言直接生成符合要求的图片。
 2. **个性化优化建议**：根据用户的使用习惯和历史数据，提供个性化的提示词优化建议。
-# 个人学习python做的第一个项目，用于学习,目前项目属于是看看乐乐的情况，并不具备实际的能力。
+***个人学习python做的第一个项目，用于学习,目前项目属于是看看乐乐的情况，并不具备实际的能力***
