@@ -23,7 +23,7 @@ streamlit run chat_ui.py
 **随后在webui上进行参数的调整即可**
 **你需要部署一个Stable diffusion Webui 否则将无法使用生图功能**
 
-#### 仅使用推理ui
+# 仅使用推理ui
 ## 安装依赖
 ```bash
 pip install transformers huggingface_hub streamlit torch
